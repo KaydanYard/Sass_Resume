@@ -1,3 +1,110 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f4fff8;
+}
 
+body .mainPageWrapper .content-wrapper .contentRight .experience, body .mainPageWrapper .content-wrapper .contentRight .education .eduItems, body .mainPageWrapper .content-wrapper .contentRight .education, body .mainPageWrapper .content-wrapper .contentRight .social, body .mainPageWrapper .content-wrapper .contentLeft .skills, body .mainPageWrapper .content-wrapper .contentLeft .contact, body .mainPageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+body .mainPageWrapper .content-wrapper .contentRight .education, body .mainPageWrapper .content-wrapper .contentRight .social, body .mainPageWrapper .content-wrapper .contentRight .profile, body .mainPageWrapper .content-wrapper .contentLeft .skills, body .mainPageWrapper .content-wrapper .contentLeft .contact {
+  border-bottom: 3px solid #4d4847;
+}
+
+body .mainPageWrapper {
+  width: 85%;
+  margin: 30px auto;
+  box-shadow: 0px 12px 50px 10px #000000;
+}
+body .mainPageWrapper .top {
+  padding: 20px;
+  background-color: #1c3738;
+  color: #f4fff8;
+}
+body .mainPageWrapper .diagonalSlash1 {
+  color: transparent;
+  width: 100%;
+  background-image: linear-gradient(45deg, #000f08, #8baaad);
+  transform: skewY(-180deg);
+}
+body .mainPageWrapper .diagonalSlash1 .slashContent1 {
+  margin: 0 auto;
+  transform: skewY(180deg);
+}
+body .mainPageWrapper .content-wrapper {
+  display: flex;
+  background-color: #8baaad;
+}
+body .mainPageWrapper .content-wrapper .contentLeft {
+  width: 35%;
+  padding-left: 10px;
+}
+body .mainPageWrapper .content-wrapper .contentLeft .contact .contactItems {
+  margin-top: -10px;
+  margin-left: 20px;
+}
+body .mainPageWrapper .content-wrapper .contentLeft .contact .contactItems .contactItem p {
+  margin-top: -10px;
+}
+body .mainPageWrapper .content-wrapper .contentLeft .skills .skillItems {
+  margin-left: 20px;
+}
+body .mainPageWrapper .content-wrapper .contentRight {
+  width: 100%;
+  margin-left: 50px;
+  padding-left: 50px;
+  border-left: 3px solid #4d4847;
+}
+body .mainPageWrapper .content-wrapper .contentRight .profile {
+  width: 80%;
+}
+body .mainPageWrapper .content-wrapper .contentRight .profile p {
+  margin-left: 20px;
+  width: 80%;
+}
+body .mainPageWrapper .content-wrapper .contentRight .social {
+  width: 90%;
+}
+body .mainPageWrapper .content-wrapper .contentRight .social .socialItems {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -100px;
+}
+body .mainPageWrapper .content-wrapper .contentRight .social .socialItems .socialItem {
+  margin: 10px;
+}
+body .mainPageWrapper .content-wrapper .contentRight .social .socialItems .socialItem a {
+  text-decoration: none;
+  color: #4d4847;
+  transition: 0.3s ease-in-out;
+}
+body .mainPageWrapper .content-wrapper .contentRight .social .socialItems .socialItem a i {
+  font-size: 20px;
+}
+body .mainPageWrapper .content-wrapper .contentRight .social .socialItems .socialItem a:hover {
+  color: #1c3738;
+}
+body .mainPageWrapper .content-wrapper .contentRight .education {
+  width: 60%;
+}
+body .mainPageWrapper .content-wrapper .contentRight .education .eduItems {
+  margin-left: 20px;
+}
+body .mainPageWrapper .content-wrapper .contentRight .education .eduItems .eduItem {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .mainPageWrapper .content-wrapper .contentRight .experience {
+  width: 70%;
+}
+body .mainPageWrapper .content-wrapper .contentRight .experience .expItem {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=baseStyles.css.map */
